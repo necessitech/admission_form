@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+</head>
+<body style="background: linear-gradient(to right, green, lightgreen); background-repeat: no-repeat; background-size: cover;">
+    <h1 style="color: #fff;">School Admission Form</h1>
+    <p style="width: 460px; color: #fff;">School admission form are processed within 48 hours. You will receive an email confirmation when we process your application.</p>
+
+    <form action="#">
+        <label style="color: #fff;" for="name">Your Name</label>
+        <input style="margin-left: 90px;" type="text" placeholder="First Name">
+        <input style="margin-left: 1px;" type="text" placeholder="Last Name"> <br /> 
+        <label style="width: 159px; display: inline-block; color: #fff;" for="c">Choose your want to apply</label> 
+        <input style="margin-top: 10px; margin-left: 4px;" id="c" list="Group" placeholder="Choose your group"> <br/>
+        <datalist id="Group">
+            <option value="Science">Science</option>
+            <option value="Commerce">Commerce</option>
+            <option value="Arts">Arts</option>
+        </datalist>
+        <label style="color: #fff;" for="date">Students Birth Date</label>
+        <input style="padding-left: 25px; margin-left: 38px; color: #fff;" id="date" type="date"> <br/>
+        <label style="color: #fff;" for="pg">Parents Gardian Name</label>
+        <input style="margin-left: 18px;" id="pg" type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name"> <br/>
+        <label style="color: #fff;" for="ad">Sipping Address</label>
+        <input style="width: 19%; margin-left: 58px;" id="ad" type="text" placeholder="Student Address"><br/>
+        <input style="margin-left: 167px;" type="text" placeholder="City">
+        <input type="text" placeholder="Country"> <br/>
+        <label style="color: #fff;" for="email">Email</label>
+        <input style="margin-left: 125px;" id="email" type="email"> <br/> 
+        <label style="color: #fff;" for="dg">Digital Signature</label>
+        <input style="width: 19%; margin-left: 53px; height: 35px;" id="dg" type="text"> <br/>
+        <button style="background: transparent; margin-top: 20px; padding: 10px 20px; color: #fff; border: 1px solid #fff; border-radius: 5px;">SUBMIT FORM</button>
+    </form>
+</body>
+</html>
